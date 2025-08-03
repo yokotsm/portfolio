@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>お問い合わせ - Cafe Rainy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Cafe Rainy</h1>
+    <nav>
+      <a href="index.html">トップ</a>
+      <a href="menu.html">メニュー</a>
+      <a href="contact.html">お問い合わせ</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contact">
+      <h2>お問い合わせ</h2>
+      <form>
+        <label for="name">お名前</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">メールアドレス</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">お問い合わせ内容</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">送信</button>
+      </form>
+    </section>
+
+    <section class="access">
+      <h2>アクセス</h2>
+      <img src="images/map.jpg" alt="地図" style="width:100%; max-width:600px;">
+      <p>〒123-4567 東京都〇〇区〇〇町1-2-3</p>
+      <p>営業時間：10:00〜19:00（火曜定休）</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Cafe Rainy</p>
+  </footer>
+</body>
+</html>
