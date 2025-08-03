@@ -1,0 +1,66 @@
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #007acc;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+section {
+  padding: 2rem;
+  margin: 1rem auto;
+  max-width: 900px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+h1, h2 {
+  margin-top: 0;
+}
+
+.skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 0;
+  list-style: none;
+}
+
+.skills li {
+  background-color: #e0f0ff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.work-item {
+  background: #f9f9f9;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-left: 4px solid #007acc;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  background-color: #333;
+  color: white;
+}
+
+/* レスポンシブ対応 */
+@media (max-width: 600px) {
+  body {
+    font-size: 90%;
+  }
+
+  .skills ul {
+    flex-direction: column;
+  }
+}
