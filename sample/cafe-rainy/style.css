@@ -58,6 +58,22 @@ nav a:hover {
   border-radius: 10px;
 }
 
+.caution {
+  position: relative;
+  text-align: center;
+}
+
+.caution-text {
+  position: absolute;
+  top: 5%;
+  left: 0%;
+  color: white;
+  background: rgba(0,0,0,0.9);
+  padding: 1.5vw;
+  border-radius: 1%;
+  font-size: 1.5vw;
+}
+
 .about, .menu, .contact, .access {
   padding: 2rem;
   max-width: 800px;
